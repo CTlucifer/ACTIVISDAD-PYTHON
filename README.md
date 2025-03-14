@@ -3,7 +3,7 @@
 # Ejercicio 1: Sistema de Red Social 
 
 
-## ESTE PROGRAMA MODELA UN PROGRAMA DE UNA APLICACION DE ESCRITORIO EN EL CUAL SE PUEDE AGREGAR UN POSTS VER INFORMACION DEL USUARIO COMO AMIGOS Y DE LOS MISMOS POSTS
+## este programa modela un programa de una aplicación de escritorio en el cual se puede agregar un posts, ver información del usuario como amigos y de los mismos posts
 
 ## Funcionalidades 
 
