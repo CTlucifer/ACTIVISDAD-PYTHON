@@ -25,3 +25,33 @@
 - La ciudad cambia a "Madrid". 
 
 - Se elimina un amigo de la lista del usuario.
+
+
+
+
+# Ejercicio 2: Sistema de Tienda Online
+
+
+## este programa te permite ver mlos productos de dicha tienda que estan en stock tales como pantalones, camisas entro otros productos de la tienda, b tambien permite registrar a un comprador de la tienda para tener su informacion.
+
+
+## Funcionalidades 
+
+- Almacena productos en stock
+
+- Permite agregar nuevos productos
+
+-  
+
+- Permite eliminar un amigo de la lista. 
+
+
+## Casos de Prueba 
+
+- Usuario: "Carlos", Ciudad: "Barcelona". 
+
+- Se agrega un post con 5 likes. 
+
+- La ciudad cambia a "Madrid". 
+
+- Se elimina un amigo.
