@@ -23,7 +23,7 @@ Esta clase representa una receta de cocina con los siguientes atributos:
 - `acompanante` → Acompañamiento de la receta (Ej: Arroz, Puré).  
 - `ensalada` → Ensalada incluida en el plato (Ej: César, Rusa).  
 
-#### 🛠 **Métodos:**  
+####  **Métodos:**  
 
 - `to_text()` → Convierte la receta en una cadena de texto (`"proteína|acompañante|ensalada"`).  
 - `update(proteina, acompanante, ensalada)` → Modifica los valores de la receta.  
