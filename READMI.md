@@ -35,7 +35,7 @@ Esta clase representa una receta de cocina con los siguientes atributos:
 
 Gestiona el conjunto de recetas y la interacción con el archivo `Archivo.txt`.  
 
-#### 🛠 **Métodos:**  
+####  **Métodos:**  
 
 - `load_recetas()` → Carga las recetas desde el archivo.  
 - `save_recetas()` → Guarda todas las recetas en el archivo.  
