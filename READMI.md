@@ -1,19 +1,19 @@
-# 📖 Recetario en Python  
+# DESCRIPCION
 
 Este proyecto es una aplicación de línea de comandos en Python para gestionar recetas de cocina. Permite agregar, modificar y buscar recetas utilizando almacenamiento en un archivo de texto (`Archivo.txt`).  
 
 ---
 
-## 🚀 **Características**  
+##  **Características**  
 
-✅ Agregar nuevas recetas con proteína, acompañante y ensalada.  
-✅ Modificar recetas existentes sin perder datos.  
-✅ Buscar recetas por tipo de proteína.  
-✅ Almacenar recetas en un archivo de texto para persistencia.  
+ Agregar nuevas recetas con proteína, acompañante y ensalada.  
+ Modificar recetas existentes sin perder datos.  
+ Buscar recetas por tipo de proteína.  
+ Almacenar recetas en un archivo de texto para persistencia.  
 
 ---
 
-## 📌 **Estructura del Código**  
+##  **Estructura del Código**  
 
 ### 🏷 **1. Clase `Receta`**  
 
@@ -31,7 +31,7 @@ Esta clase representa una receta de cocina con los siguientes atributos:
 
 ---
 
-### 📂 **2. Clase `Recetario`**  
+###  **2. Clase `Recetario`**  
 
 Gestiona el conjunto de recetas y la interacción con el archivo `Archivo.txt`.  
 
@@ -45,18 +45,18 @@ Gestiona el conjunto de recetas y la interacción con el archivo `Archivo.txt`.
 
 ---
 
-### 🎮 **3. Función `main()`**  
+###  **3. Función `main()`**  
 
 Muestra un menú interactivo para que el usuario pueda:  
 
-1️⃣ **Agregar una receta**  
-2️⃣ **Modificar una receta existente**  
-3️⃣ **Buscar recetas por proteína**  
-4️⃣ **Salir de la aplicación**  
+1️ **Agregar una receta**  
+2️ **Modificar una receta existente**  
+3️ **Buscar recetas por proteína**  
+4️ **Salir de la aplicación**  
 
 ---
 
-## ▶️ **Cómo Ejecutarlo**  
+##  **Cómo Ejecutarlo**  
 
 1. Asegúrate de tener **Python 3** instalado.  
 2. Guarda el código en un archivo `recetario.py`.  
