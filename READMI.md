@@ -37,8 +37,8 @@ Gestiona el conjunto de recetas y la interacción con el archivo `Archivo.txt`.
 
 ####  **Métodos:**  
 
-- `load_recetas()` → Carga las recetas desde el archivo.  
-- `save_recetas()` → Guarda todas las recetas en el archivo.  
+- `cargar_recetas()` → Carga las recetas desde el archivo.  
+- `guardar_recetas()` → Guarda todas las recetas en el archivo.  
 - `agregar_receta(receta)` → Agrega una nueva receta y la guarda.  
 - `modificar_receta(index, proteina, acompanante, ensalada)` → Modifica una receta existente.  
 - `buscar_recetas_por_proteina(proteina)` → Busca recetas que contengan la proteína especificada.  
