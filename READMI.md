@@ -15,7 +15,7 @@ Este proyecto es una aplicación de línea de comandos en Python para gestionar 
 
 ##  **Estructura del Código**  
 
-### 🏷 **1. Clase `Receta`**  
+###  **1. Clase `Receta`**  
 
 Esta clase representa una receta de cocina con los siguientes atributos:  
 
