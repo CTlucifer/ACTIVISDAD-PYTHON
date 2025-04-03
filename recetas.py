@@ -1,4 +1,3 @@
-
 import os
 
 # Clase que representa una receta.
@@ -35,10 +34,10 @@ class Recetario:
     def __init__(self, filename="Archivo.txt"):
         self.filename = filename
         self.recetas = []
-        self.load_recetas()
+        self.cargar_recetas()
 
     # Carga las recetas desde el archivo de texto.
-    def load_recetas(self):
+    def cargar_recetas(self):
         self.recetas = []
         if os.path.exists(self.filename):
             try:
@@ -51,7 +50,7 @@ class Recetario:
                 print(f"Error al leer el archivo: {e}")
 
     # Guarda todas las recetas en el archivo de texto sobrescribiendo su contenido.
-    def save_recetas(self):
+    def guardar_recetas(self):
         try:
             with open(self.filename, "w", encoding="utf-8") as file:
                 for receta in self.recetas:
@@ -62,13 +61,13 @@ class Recetario:
     # Agrega una nueva receta y actualiza el archivo.
     def agregar_receta(self, receta):
         self.recetas.append(receta)
-        self.save_recetas()
+        self.guardar_recetas()
 
     # Modifica una receta existente dado su índice.
     def modificar_receta(self, index, proteina=None, acompanante=None, ensalada=None):
         if 0 <= index < len(self.recetas):
             self.recetas[index].update(proteina, acompanante, ensalada)
-            self.save_recetas()
+            self.guardar_recetas()
         else:
             print("Índice de receta inválido.")
 
